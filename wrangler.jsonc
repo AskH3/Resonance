@@ -1,1 +1,18 @@
+{
+  "name": "resonance",
+  "main": "dist/server/index.js",
+  "compatibility_date": "2026-09-15",
+  "compatibility_flags": ["nodejs_compat"],
 
+  "assets": {
+    "directory": "dist/client"
+  },
+
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "resonance-production",
+      "database_id": "df1679f3-1419-46a4-a75f-38a0451e2018"
+    }
+  ]
+}
